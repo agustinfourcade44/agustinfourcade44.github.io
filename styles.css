@@ -1,0 +1,58 @@
+#edu {
+color: red;
+
+}
+
+
+#exp {
+color: goldenrod;
+
+}
+
+#cont {
+color: green;
+
+}
+
+
+
+.titulo {
+
+    color:chocolate;
+    background-color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.titulo:hover {
+
+    transform: scale(1.2);
+}
+
+
+.parrafo {
+
+    color: blue;
+}
+
+.separador {
+    border: 2px solid red;
+}
+
+
+.imagen {
+
+border: 3px solid black;
+opacity: 0.1;
+transition: all 0.5s ease;
+transition: transform 0.5s ease;
+
+}
+
+
+.imagen:hover {
+opacity: 1;
+transform: scale(1.2);
+
+}
