@@ -1,79 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <!-- aqui agregue titulo y el archivo styles-->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<h1 class="titulo"> Agustin Fourcade</h1>
-<!--aca hice un class para ubicarlo en el styles-->
-<p class="parrafo">
-    Actualmente me encuentro trabajando en el area administrativa para una empresa de seguridad,
-    estoy formandome en distinas instituciones como JaP, y otras instituciones privadas en el area 
-    de la programacion y ciberseguridad.
-</p>
-<hr>
-<!-- aca linea divisora y links dentro de la pagina-->
-<ul>
+  <header>
+    <h1 class="titulo">Agustin Fourcade</h1>
+ 
+    <nav>
+      <ul class="menu">
         <li><a href="#edu">Educación</a></li>
         <li><a href="#exp">Experiencia</a></li>
-        <li><a href="#cont">Contactar</a></li>
-</ul>
-<hr class="separador">
-<h2 id="edu">Educación</h2>
-<table>
-    <!-- aca la tabla con negrita-->
+        <li><a href="#cont">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<tbody>
+  <main>
+   
+    <section>
+      <p class="parrafo">
+        Actualmente me encuentro trabajando en el área administrativa para una empresa de seguridad,
+        estoy formándome en distintas instituciones como JaP y otras instituciones privadas en el área 
+        de la programación y ciberseguridad.
+      </p>
+    </section>
 
-<th>Institucion</th>
-<th>Modalidad</th>
-<th>Curso</th>
-<th>Duración</th>
-<tr>
-</tr>
-<td>UTU canelones</td>
-<td>Presencial</td>
-<td>6to Bachillerato</td>
-<td>3 años</td>
-<tr>
-</tr>
-<td>Inefop-Coursera</td>
-<td>Online</td>
-<td>Analista en ciberseguridad</td>
-<td>2 años</td>
-<tr>
-</tr>
-<td>JaP</td>
-<td>Online</td>
-<td>Desarrollador web</td>
-<td>Sin definir</td>
+    <hr class="separador">
 
+ 
+    <section id="edu">
+      <h2>Educación</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Institución</th>
+            <th>Modalidad</th>
+            <th>Curso</th>
+            <th>Duración</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>UTU Canelones</td>
+            <td>Presencial</td>
+            <td>6to Bachillerato</td>
+            <td>3 años</td>
+          </tr>
+          <tr>
+            <td>Inefop-Coursera</td>
+            <td>Online</td>
+            <td>Analista en ciberseguridad</td>
+            <td>2 años</td>
+          </tr>
+          <tr>
+            <td>JaP</td>
+            <td>Online</td>
+            <td>Desarrollador web</td>
+            <td>En curso</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-</tbody>
+    <section id="exp">
+      <h2>Experiencia profesional</h2>
+      <ul>
+        <li><b>Ejército Nacional</b> (2020 - 2022) - Administrativo</li>
+        <li><b>Securitas</b> (2023 - Actualidad) - Administrativo</li>
+      </ul>
+    </section>
 
+    
+    <section id="cont">
+      <h2>Contacto</h2>
+      <ul>
+        <li><b>Teléfono:</b> 092759695</li>
+        <li><b>Localidad:</b> Santa Lucía, Canelones</li>
+        <li><b>Email:</b> agustinfourcade64@gmail.com</li>
+      </ul>
+      <img src="imagen.png" alt="Foto de contacto" class="imagen">
+    </section>
+  </main>
 
-</table>
-<!-- acordarme de los id en cada seccion-->
+  <footer>
+    <p class="parrafo">© 2025 - Portafolio de Agustin Fourcade</p>
+  </footer>
 
-<h2 id="exp">Experiencia profesional</h2>
-    <ul>
-        <li><b>Ejercito Nacional</b> 2020-2022- Administrativo</li>
-        <li><b>Securitas </b> 2023-Actualidad- Administrativo</li>
-    </ul>
-    <h2 id="cont">Contacto</h2>
-    <ul>
-        <li><b>Numero telefonico:</b> 092759695</li>
-        <li><b>Localidad:</b>Santa lucia-Canelones</li>
-        <li><b>Correo electronico:</b>Agustinfourcade64@gmail.com</li>
-
-
-
-    </ul>
-    <img src="imagen.png" alt="Contactenme porfa"width="200" class="imagen">
 </body>
 </html>
